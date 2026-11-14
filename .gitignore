@@ -1,0 +1,49 @@
+# Help documentation
+HELP.md
+
+# Maven / Build directories
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Spring Tool Suite / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# Logs y archivos de respaldo del sistema operativo
+*.log
+logs/
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración local o credenciales sensibles (¡Muy importante para JWT / BD!)
+application-dev.properties
+application-prod.properties
+.env
